@@ -540,8 +540,7 @@ body {
 }
 
 .img-border {
-  display: block;
-  /*height: 204px;*/
+  padding: 0 10px;
 }
 
 .shop-title {
@@ -583,10 +582,6 @@ body {
   border: 2px solid #b59f5b;
   padding: 30px 25px;
   margin-top: -35px;
-}
-
-.img-border {
-  padding: 0 10px;
 }
 
 
@@ -634,9 +629,9 @@ body {
 }
 
 /*Popup-окно*/
-.close-off {
+/*.visually-hidden {
   display: none;
-}
+}*/
 
 .popup {
   display: flex;
@@ -704,7 +699,6 @@ body {
   background-size: 16px;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .radio-items:checked+.radio-items-title::after {
